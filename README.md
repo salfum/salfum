@@ -1,4 +1,51 @@
-### Hi there 👋
+### Hi there <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace MaximErmakov;
+
+final class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Azbuka Novostroek',
+                'position' => 'Back-end Laravel engineer'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+	    Linux::class,
+        ];
+    }
+
+    public function getFuturePlans(): array
+    {
+        return [
+	    'Learn about TALL stack',
+	    'Explore GoLang',
+	    'Grow professionally',
+	];
+    }
+}
+```
+
+<br/>
+
+![github stats](https://github-readme-stats.vercel.app/api?username=salfum&show_icons=true)
+
+[telegram]: https://t.me/salfum
 
 <!--
 **salfum/salfum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

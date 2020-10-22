@@ -14,7 +14,7 @@ final class About extends Me
         return [
             'workplace' => [
                 'company' => 'Azbuka Novostroek',
-                'position' => 'Back-end Laravel engineer'         
+                'position' => 'Junior Back-end engineer'         
             ]
         ];
     }
@@ -43,8 +43,11 @@ final class About extends Me
 
 <br/>
 
-![github stats](https://github-readme-stats.vercel.app/api?username=salfum&show_icons=true)
+![github stats](https://github-readme-stats.vercel.app/api?username=salfum&show_icons=true&count_private=true)
 
+### My contacts:
+[<img align="left" alt="salfum | Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
+<br/>
 [telegram]: https://t.me/salfum
 
 <!--

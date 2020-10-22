@@ -46,9 +46,9 @@ final class About extends Me
 ![github stats](https://github-readme-stats.vercel.app/api?username=salfum&show_icons=true&count_private=true)
 
 ### My contacts:
-[<img align="left" alt="salfum | Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
-<br/>
-[telegram]: https://t.me/salfum
+<a href="https://t.me/salfum">
+    <img align="left" alt="Salfum's Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />
+</a>
 
 <!--
 **salfum/salfum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

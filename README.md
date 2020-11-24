@@ -33,7 +33,7 @@ final class About extends Me
     public function getFuturePlans(): array
     {
         return [
-	    'Learn about TALL stack',
+	    'Learn TALL stack',
 	    'Explore GoLang',
 	    'Grow professionally',
 	];

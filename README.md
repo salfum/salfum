@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace MaximErmakov;
+namespace MaksimErmakov;
 
 final class About extends Me
 {

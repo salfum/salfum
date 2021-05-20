@@ -13,8 +13,8 @@ final class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Azbuka Novostroek',
-                'position' => 'Junior Back-end engineer'         
+                'company' => 'ChilliCode',
+                'position' => 'Back-end engineer'         
             ]
         ];
     }
@@ -26,15 +26,16 @@ final class About extends Me
             Javascript::class,
             Laravel::class,
             Vuejs::class,
-	    Linux::class,
+            Linux::class,
+            Docker::class,
+            PostgreSQL::class,
         ];
     }
 
     public function getFuturePlans(): array
     {
         return [
-	    'Learn TALL stack',
-	    'Explore GoLang',
+	    'Learn functional programming',
 	    'Grow professionally',
 	];
     }

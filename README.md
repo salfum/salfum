@@ -13,8 +13,8 @@ final class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'ChilliCode',
-                'position' => 'Back-end engineer'         
+                'company' => 'Elonsoft',
+                'position' => 'Back-end software engineer'         
             ]
         ];
     }
@@ -22,10 +22,10 @@ final class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
+	    Elixir::class,
+	    Phoenix::class,
             Php::class,
-            Javascript::class,
             Laravel::class,
-            Vuejs::class,
             Linux::class,
             Docker::class,
             PostgreSQL::class,
@@ -35,7 +35,7 @@ final class About extends Me
     public function getFuturePlans(): array
     {
         return [
-	    'Learn functional programming',
+	    'Development in functional programming',
 	    'Grow professionally',
 	];
     }

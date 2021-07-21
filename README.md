@@ -14,16 +14,16 @@ final class About extends Me
         return [
             'workplace' => [
                 'company' => 'Elonsoft',
-                'position' => 'Back-end software engineer'         
-            ]
+                'position' => 'Back-end software engineer',         
+            ],
         ];
     }
 
     public function getDailyKnowledge(): array
     {
         return [
-	    Elixir::class,
-	    Phoenix::class,
+            Elixir::class,
+            Phoenix::class,
             Php::class,
             Laravel::class,
             Linux::class,
@@ -35,8 +35,8 @@ final class About extends Me
     public function getFuturePlans(): array
     {
         return [
-	    'Development in functional programming',
-	    'Grow professionally',
+            'Development in functional programming',
+            'Grow professionally',
 	];
     }
 }
@@ -53,6 +53,12 @@ final class About extends Me
 
 ### My most used languages and tools:
 <p align="left">
+    <a href="https://elixir-lang.org" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg" alt="php" width="40" height="40"/>
+    </a>
+    <a href="https://phoenixframework.org" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/phoenix/phoenix-original.svg" alt="php" width="40" height="40"/>
+    </a>
     <a href="https://www.php.net" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
     </a>
@@ -71,12 +77,6 @@ final class About extends Me
     <a href="https://git-scm.com/" target="_blank">
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
     </a> 
-    <a href="https://www.javascript.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/>
-    </a>
     <a href="https://www.jetbrains.com/phpstorm/" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/phpstorm/phpstorm-original.svg" alt="phpstorm" width="40" height="40"/>
     </a>

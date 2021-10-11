@@ -37,7 +37,7 @@ final class About extends Me
         return [
             'Development in functional programming',
             'Grow professionally',
-	];
+        ];
     }
 }
 ```

@@ -1,47 +1,5 @@
 ### Hi there <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
 
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace MaksimErmakov;
-
-final class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Elonsoft',
-                'position' => 'Back-end software engineer',         
-            ],
-        ];
-    }
-
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Elixir::class,
-            Phoenix::class,
-            Php::class,
-            Laravel::class,
-            Linux::class,
-            Docker::class,
-            PostgreSQL::class,
-        ];
-    }
-
-    public function getFuturePlans(): array
-    {
-        return [
-            'Development in functional programming',
-            'Grow professionally',
-        ];
-    }
-}
-```
-
 <br/>
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=salfum&show_icons=true&count_private=true)
